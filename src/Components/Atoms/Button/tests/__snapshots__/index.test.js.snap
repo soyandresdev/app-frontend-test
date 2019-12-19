@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test component [Button] Renders correctly [Button] 1`] = `
+<button
+  className="sc-bdVaJa eZPAkX"
+  disabled={false}
+  id=""
+  loading={false}
+  onClick={null}
+  size="Big"
+  type=""
+>
+  Text Button
+</button>
+`;
+
+exports[`Test component [Button] Renders correctly defaultProps [Button] 1`] = `
+<button
+  className="sc-bdVaJa eZPAkX"
+  disabled={false}
+  id=""
+  loading={false}
+  onClick={null}
+  size="Big"
+  type=""
+>
+  Hola
+</button>
+`;
