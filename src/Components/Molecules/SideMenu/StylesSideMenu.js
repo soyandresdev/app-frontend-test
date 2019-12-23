@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from ".././../../styles/mediaQuery";
 
 export const Nav = styled.nav`
   height: 100vh;
@@ -8,6 +9,15 @@ export const Nav = styled.nav`
   background: linear-gradient(180deg, #0081ff 50%, #18a5f9 100%);
   display: grid;
   grid-template-rows: 1fr 100px;
+  position: fixed;
+  display: none;
+  @media ${device.tablet} {
+    display: block;
+    width: 220px;
+  }
+  @media ${device.laptop} {
+    width: 270px;
+  }
 `;
 
 export const Logo = styled.figure`
@@ -52,12 +62,19 @@ export const UserBox = styled.a`
   display: flex;
   align-items: center;
   text-decoration: none;
+  outline: none;
+  transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.2) 0s;
+  &:hover {
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 20px 40px;
+    transform: translateY(-3px);
+  }
   & p {
     color: white;
     font-weight: Bold;
+    flex: 1;
   }
 `;
-export const Avatar = styled.a`
+export const Avatar = styled.div`
   width: 40px;
   height: 40px;
   display: flex;

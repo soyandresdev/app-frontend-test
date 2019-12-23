@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test component [Select] Renders correctly defaultProps [Select] 1`] = `
+<div
+  className="sc-bdVaJa lbcdMV"
+>
+  <label
+    className="sc-htpNat giGFte"
+    htmlFor="field"
+  >
+    Name
+    
+  </label>
+  <select
+    className="sc-bwzfXH Nzwtf"
+    id="field"
+    name="field"
+    onChange={[MockFunction]}
+    value=""
+  >
+    <option
+      defaultValue={true}
+      disabled={true}
+      value=""
+    >
+      Seleccionar
+    </option>
+    <option
+      value="CC"
+    >
+      Cédula de ciudadanía
+    </option>
+    <option
+      value="CE"
+    >
+      Cédula de extranjería
+    </option>
+    <option
+      value="PA"
+    >
+      Pasaporte
+    </option>
+  </select>
+</div>
+`;

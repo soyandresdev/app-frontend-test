@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test component [BoxWhiteRound] Renders correctly [BoxWhiteRound] 1`] = `
+<section
+  className="sc-bdVaJa bRZyQZ"
+>
+  &lt;h1&gt;hola&lt;/h1&gt;
+</section>
+`;
+
+exports[`Test component [BoxWhiteRound] Renders correctly defaultProps [BoxWhiteRound] 1`] = `
+<section
+  className="sc-bdVaJa bRZyQZ"
+>
+  &lt;h1&gt;hola&lt;/h1&gt;
+</section>
+`;

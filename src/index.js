@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import App from "./Components/Pages/Home/App";
 import * as serviceWorker from "./serviceWorker";
 import GlobalStyles from "./GlobalStyles";
+import "tippy.js/dist/tippy.css";
 
 ReactDOM.render(
   <>

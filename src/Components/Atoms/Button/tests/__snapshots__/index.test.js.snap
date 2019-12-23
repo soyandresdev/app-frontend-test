@@ -2,10 +2,9 @@
 
 exports[`Test component [Button] Renders correctly [Button] 1`] = `
 <button
-  className="sc-bdVaJa eZPAkX"
+  className="sc-bdVaJa Ggrmq"
   disabled={false}
   id=""
-  loading={false}
   onClick={null}
   size="Big"
   type=""
@@ -16,10 +15,9 @@ exports[`Test component [Button] Renders correctly [Button] 1`] = `
 
 exports[`Test component [Button] Renders correctly defaultProps [Button] 1`] = `
 <button
-  className="sc-bdVaJa eZPAkX"
+  className="sc-bdVaJa Ggrmq"
   disabled={false}
   id=""
-  loading={false}
   onClick={null}
   size="Big"
   type=""

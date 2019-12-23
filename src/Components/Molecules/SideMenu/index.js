@@ -13,7 +13,7 @@ import {
 } from "./StylesSideMenu";
 
 const List = [
-  { text: "Home", icon: "home", href: "#" },
+  { text: "Inicio", icon: "home", href: "#" },
   { text: "Clientes", icon: "user", href: "#" },
   { text: "Aliados", icon: "addUser", href: "#" },
   { text: "Reportes", icon: "graph", href: "#" }

@@ -1,0 +1,69 @@
+{
+  "personas": [
+    {
+      "firstName": "Robinson Andres",
+      "lastName": "Hernandez Lozano",
+      "typeDocument": "CC",
+      "job": "Programador",
+      "id": "1016987658",
+      "city": "Bogotá",
+      "email": "soyandreshernandez@gmail.com",
+      "addres": "Calle 21 # 88 a 49",
+      "phone": "3185896678",
+      "phoneHome": "",
+      "dateExpedition": "2012-01-01",
+      "dateBirth": "1995-02-01"
+    },
+    {
+      "firstName": "Maria Camila",
+      "lastName": "Perez Carbajal",
+      "typeDocument": "CC",
+      "job": "Psicologa",
+      "id": "10169863698",
+      "city": "Bogotá",
+      "email": "camilacarbajal32@gmail.com",
+      "addres": "Calle 58 # 84-32",
+      "phone": "3185896678",
+      "phoneHome": "",
+      "dateExpedition": "2012-01-21",
+      "dateBirth": "1994-12-18"
+    },
+    {
+      "firstName": "Andres Felipe",
+      "lastName": "Baquero",
+      "typeDocument": "CC",
+      "job": "Estudiante",
+      "id": "1016585695",
+      "city": "Bogotá",
+      "email": "felipe54@gmail.com",
+      "addres": "Calle 55 # 88-23",
+      "phone": "3189865869",
+      "phoneHome": "",
+      "dateExpedition": "2009-02-23",
+      "dateBirth": "1992-02-22"
+    }
+  ],
+  "antecedentes": [
+    {
+      "firstName": "Robinson Andres",
+      "lastName": "Hernandez Lozano",
+      "typeDocument": "CC",
+      "id": "1016987658",
+      "background": false
+    },
+    {
+      "firstName": "Maria Camila",
+      "lastName": "Perez Carbajal",
+      "typeDocument": "CC",
+      "id": "10169863698",
+      "background": false
+    },
+    {
+      "firstName": "Andres Felipe",
+      "lastName": "Baquero",
+      "typeDocument": "CC",
+      "id": "1016585695",
+      "background": true
+    }
+  ]
+}

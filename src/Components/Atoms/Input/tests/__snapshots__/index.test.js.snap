@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test component [Input] Renders correctly defaultProps [Input] 1`] = `
+<div
+  className="sc-bdVaJa lbcdMV"
+>
+  <label
+    className="sc-htpNat giGFte"
+    htmlFor="field"
+  >
+    Name
+    
+  </label>
+  <input
+    className="sc-bwzfXH jYOjch"
+    id="field"
+    name="field"
+    onChange={[MockFunction]}
+    type="text"
+    value=""
+  />
+</div>
+`;
