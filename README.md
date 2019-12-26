@@ -42,6 +42,8 @@ Run EndtoEnd test, eject command on terminal:
 $ yarn cypress
 ```
 
+Run, Integration Test with name `form.spec.js`
+
 ## Project storybook
 
 To view the storybook, run in terminal:

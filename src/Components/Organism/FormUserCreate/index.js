@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import Input from "../../Atoms/Input";
 import Select from "../../Atoms/Select";
 import Button from "../../Atoms/Button";
+import Alert from "../../Molecules/Alert";
 import BoxWhiteRound from "../../Atoms/BoxWhiteRound";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { Title, Columns } from "./stylesFormUserCreate";
 
 import DirectoryPerson from "../../../utils/Form/directoryPerson";
+
 export default function FormUserCreate() {
   const [submit, setSubmit] = useState(false);
   const formik = useFormik({
@@ -242,9 +244,11 @@ export default function FormUserCreate() {
         </Columns>
         <Columns columns={1}>
           {submit && (
-            <div>
-              <p>Formulario enviado</p>
-            </div>
+            <Alert
+              id="form-submit-msg"
+              iconType="user"
+              text="Formulario enviado."
+            />
           )}
         </Columns>
         <Button id="save" type="submit">

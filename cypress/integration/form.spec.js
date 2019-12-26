@@ -22,6 +22,7 @@ describe("Form", () => {
         }
       }
     }).as("personas");
+
     cy.route({
       method: "GET",
       url: "http://localhost:3004/antecedentes/1016987658",
@@ -35,6 +36,7 @@ describe("Form", () => {
         }
       }
     }).as("antecedentes");
+
     cy.route({
       method: "GET",
       url: "http://localhost:3004/calificacion",
@@ -108,9 +110,8 @@ describe("Form", () => {
     cy.wait("@antecedentes")
       .its("status")
       .should("eq", 200);
-    cy.wait("@calificacion")
-      .its("status")
-      .should("eq", 200);
     // cy.wait(3000);
+
+    cy.get("#form-submit-msg").should("be.visible");
   });
 });
