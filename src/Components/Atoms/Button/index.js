@@ -17,15 +17,7 @@ A component that is responsible for displaying a button, depending on the attrib
   @return {react~Component} makeup Html for the Button.
  */
 
-const Button = ({
-  children,
-  disabled,
-  id,
-  onClick,
-  theme,
-  type,
-  ...resProps
-}) => {
+const Button = ({ children, disabled, id, onClick, theme, type, size }) => {
   // Render Button with Props
   return (
     <ButtonStyles
@@ -34,7 +26,7 @@ const Button = ({
       type={type}
       id={id}
       theme={theme}
-      {...resProps}
+      size={size}
     >
       {children}
     </ButtonStyles>
@@ -56,7 +48,7 @@ Button.propTypes = {
   /** String - Value of the type theme Button */
   theme: PropTypes.oneOf(["Primary", "Second"]),
   /** String - Value of the type size Button */
-  size: PropTypes.oneOf(["Small", "Medium", "Big", false]),
+  size: PropTypes.oneOf(["Small", "Medium", "Big"]),
   /** Function - OnClick Button */
   onClick: PropTypes.func,
   /** Boolean  - disabled Button */

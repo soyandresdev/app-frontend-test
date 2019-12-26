@@ -48,7 +48,7 @@ describe("setPersonDirectory", () => {
     return test.resolves.toMatch("Ok");
   });
 
-  it("Logic - setPersonDirectory - False por antecedentes", async () => {
+  it("Logic - setPersonDirectory - Error: por antecedentes", async () => {
     const person = {
       firstName: "Andres Felipe",
       lastName: "Baquero",
@@ -82,10 +82,10 @@ describe("setPersonDirectory", () => {
       };
     });
     const test = await expect(setPersonDirectory({ person }));
-    return test.resolves.toMatch("Fail");
+    return test.resolves.toMatch("Has a history");
   });
 
-  it("Logic - setPersonDirectory - nuestro sistema de calificación de prospectos.", async () => {
+  it("Logic - setPersonDirectory - Error: nuestro sistema de calificación de prospectos.", async () => {
     const person = {
       firstName: "Robinson Andres",
       lastName: "Hernandez Lozano",
@@ -127,6 +127,47 @@ describe("setPersonDirectory", () => {
     });
 
     const test = await expect(setPersonDirectory({ person }));
-    return test.resolves.toMatch("Fail");
+    return test.resolves.toMatch("Lead rating");
+  });
+
+  it("Logic - setPersonDirectory - Datos Diferentes", async () => {
+    const person = {
+      firstName: "Robinson Andres",
+      lastName: "Hernandez Lozano",
+      typeDocument: "CC",
+      job: "Programador",
+      id: "1016987658",
+      city: "Bogotá",
+      email: "soyandreshernandez@gmail.com",
+      addres: "Calle 21 # 88 a 49",
+      phone: "3185896678",
+      phoneHome: "",
+      dateExpedition: "2012-01-01",
+      dateBirth: "1995-01-22"
+    };
+
+    jest.spyOn(request, "getPersonFromRepublic").mockImplementation(() => {
+      return {
+        data: {
+          ...person,
+          dateBirth: "1995-02-01"
+        }
+      };
+    });
+
+    jest.spyOn(request, "getJudicialBackground").mockImplementation(() => {
+      return {
+        data: {
+          firstName: "Robinson Andres",
+          lastName: "Hernandez Lozano",
+          typeDocument: "CC",
+          id: "1016987658",
+          background: false
+        }
+      };
+    });
+
+    const test = await expect(setPersonDirectory({ person }));
+    return test.resolves.toMatch("Diferent Person");
   });
 });
