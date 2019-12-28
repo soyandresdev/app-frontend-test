@@ -2,14 +2,14 @@
 
 exports[`Test component [App] Renders correctly defaultProps [App] 1`] = `
 <div
-  className="sc-dxgOiQ jTdiBr"
+  className="sc-kEYyzF jOdmLg"
 >
   <nav
-    className="sc-iwsKbI knuhLu"
+    className="sc-fjdhpX hZjuVE"
   >
     <div>
       <figure
-        className="sc-gZMcBi lgnPek"
+        className="sc-jzJRlG jFwfFg"
       >
         <img
           alt="Logo Addi"
@@ -17,13 +17,13 @@ exports[`Test component [App] Renders correctly defaultProps [App] 1`] = `
         />
       </figure>
       <ul
-        className="sc-gqjmRU gZutVC"
+        className="sc-cSHVUG hztFbo"
       >
         <li
-          className="sc-VigVT eavgrx"
+          className="sc-kAzzGY gkmaiN"
         >
           <a
-            className="sc-jTzLTM iyYoPB"
+            className="sc-chPdSV bCWkpT"
             href="#"
           >
             <svg
@@ -46,17 +46,17 @@ exports[`Test component [App] Renders correctly defaultProps [App] 1`] = `
               />
             </svg>
             <span
-              className="sc-fjdhpX fMuuhB"
+              className="sc-kgoBCf HqqSN"
             >
               Inicio
             </span>
           </a>
         </li>
         <li
-          className="sc-VigVT eavgrx"
+          className="sc-kAzzGY gkmaiN"
         >
           <a
-            className="sc-jTzLTM iyYoPB"
+            className="sc-chPdSV bCWkpT"
             href="#"
           >
             <svg
@@ -80,17 +80,17 @@ exports[`Test component [App] Renders correctly defaultProps [App] 1`] = `
               />
             </svg>
             <span
-              className="sc-fjdhpX fMuuhB"
+              className="sc-kgoBCf HqqSN"
             >
               Clientes
             </span>
           </a>
         </li>
         <li
-          className="sc-VigVT eavgrx"
+          className="sc-kAzzGY gkmaiN"
         >
           <a
-            className="sc-jTzLTM iyYoPB"
+            className="sc-chPdSV bCWkpT"
             href="#"
           >
             <svg
@@ -113,17 +113,17 @@ exports[`Test component [App] Renders correctly defaultProps [App] 1`] = `
               />
             </svg>
             <span
-              className="sc-fjdhpX fMuuhB"
+              className="sc-kgoBCf HqqSN"
             >
               Aliados
             </span>
           </a>
         </li>
         <li
-          className="sc-VigVT eavgrx"
+          className="sc-kAzzGY gkmaiN"
         >
           <a
-            className="sc-jTzLTM iyYoPB"
+            className="sc-chPdSV bCWkpT"
             href="#"
           >
             <svg
@@ -146,7 +146,7 @@ exports[`Test component [App] Renders correctly defaultProps [App] 1`] = `
               />
             </svg>
             <span
-              className="sc-fjdhpX fMuuhB"
+              className="sc-kgoBCf HqqSN"
             >
               Reportes
             </span>
@@ -156,11 +156,11 @@ exports[`Test component [App] Renders correctly defaultProps [App] 1`] = `
     </div>
     <div>
       <a
-        className="sc-jzJRlG dPabPA"
+        className="sc-kGXeez dVgume"
         href="#"
       >
         <div
-          className="sc-cSHVUG fyYZrC"
+          className="sc-kpOJdX bCVzpk"
         >
           <span>
             A
@@ -173,13 +173,13 @@ exports[`Test component [App] Renders correctly defaultProps [App] 1`] = `
     </div>
   </nav>
   <main
-    className="sc-ckVGcZ husqkm"
+    className="sc-kkGfuU eWgRfs"
   >
     <header
-      className="sc-kAzzGY bzaJKx"
+      className="sc-dxgOiQ eCSDVh"
     >
       <figure
-        className="sc-chPdSV iYrYSN"
+        className="sc-ckVGcZ cFoPRo"
       >
         <img
           alt=""
@@ -187,31 +187,31 @@ exports[`Test component [App] Renders correctly defaultProps [App] 1`] = `
         />
       </figure>
       <ul
-        className="sc-kgoBCf egfmnA"
+        className="sc-jKJlTe AzSYu"
       >
         <li
-          className="sc-kGXeez cjBaqd"
+          className="sc-eNQAEJ edIaaH"
         />
         <li
-          className="sc-kGXeez cjBaqd"
+          className="sc-eNQAEJ edIaaH"
         />
         <li
-          className="sc-kGXeez cjBaqd"
+          className="sc-eNQAEJ edIaaH"
         />
       </ul>
     </header>
     <main
-      className="sc-jKJlTe fgdCPs"
+      className="sc-iAyFgw jhqdqq"
     >
       <div
-        className="sc-eNQAEJ gXOgPQ"
+        className="sc-hSdWYo bBCYTy"
       >
         <section
-          className="sc-dnqmqq bVCFSB"
+          className="sc-gqjmRU clqJhf"
         >
           <header>
             <h1
-              className="sc-hMqMXs eeczQj"
+              className="sc-VigVT eLFbIt"
             >
               Formulario
             </h1>
@@ -223,7 +223,7 @@ exports[`Test component [App] Renders correctly defaultProps [App] 1`] = `
             onSubmit={[Function]}
           >
             <div
-              className="sc-kEYyzF iuguDG"
+              className="sc-jTzLTM kDpPfy"
             >
               <div
                 className="sc-bdVaJa lbcdMV"
@@ -265,7 +265,7 @@ exports[`Test component [App] Renders correctly defaultProps [App] 1`] = `
               </div>
             </div>
             <div
-              className="sc-kEYyzF iuguDG"
+              className="sc-jTzLTM kDpPfy"
             >
               <div
                 className="sc-bdVaJa lbcdMV"
@@ -307,7 +307,7 @@ exports[`Test component [App] Renders correctly defaultProps [App] 1`] = `
               </div>
             </div>
             <div
-              className="sc-kEYyzF iuguDG"
+              className="sc-jTzLTM kDpPfy"
             >
               <div
                 className="sc-ifAKCX eeBoQf"
@@ -371,7 +371,7 @@ exports[`Test component [App] Renders correctly defaultProps [App] 1`] = `
               </div>
             </div>
             <div
-              className="sc-kEYyzF iuguDG"
+              className="sc-jTzLTM kDpPfy"
             >
               <div
                 className="sc-ifAKCX eeBoQf"
@@ -545,7 +545,7 @@ exports[`Test component [App] Renders correctly defaultProps [App] 1`] = `
               </div>
             </div>
             <div
-              className="sc-kEYyzF iuguDG"
+              className="sc-jTzLTM kDpPfy"
             >
               <div
                 className="sc-bdVaJa lbcdMV"
@@ -587,7 +587,7 @@ exports[`Test component [App] Renders correctly defaultProps [App] 1`] = `
               </div>
             </div>
             <div
-              className="sc-kEYyzF iuguDG"
+              className="sc-jTzLTM kDpPfy"
             >
               <div
                 className="sc-bdVaJa lbcdMV"
@@ -628,8 +628,11 @@ exports[`Test component [App] Renders correctly defaultProps [App] 1`] = `
                 />
               </div>
             </div>
+            <div
+              className="sc-jTzLTM gOalSl"
+            />
             <button
-              className="sc-htoDjs gkhsAz"
+              className="sc-htoDjs igKBsg"
               disabled={false}
               id="save"
               onClick={null}

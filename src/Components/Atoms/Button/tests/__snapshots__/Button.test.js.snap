@@ -2,7 +2,7 @@
 
 exports[`Test component [Button] Renders correctly [Button] 1`] = `
 <button
-  className="sc-bdVaJa Ggrmq"
+  className="sc-bdVaJa hiFKla"
   disabled={false}
   id=""
   onClick={null}
@@ -15,7 +15,7 @@ exports[`Test component [Button] Renders correctly [Button] 1`] = `
 
 exports[`Test component [Button] Renders correctly defaultProps [Button] 1`] = `
 <button
-  className="sc-bdVaJa Ggrmq"
+  className="sc-bdVaJa hiFKla"
   disabled={false}
   id=""
   onClick={null}
